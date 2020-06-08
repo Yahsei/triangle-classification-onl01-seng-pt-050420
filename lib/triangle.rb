@@ -26,10 +26,10 @@ class Triangle
         return :equilateral
       elsif @triangle_sides.uniq.length == 2
         return :isosceles
-      else
+      elsif
         return :scalene
       end
-    else
+    elsif
       raise TriangleError
     end
   end
