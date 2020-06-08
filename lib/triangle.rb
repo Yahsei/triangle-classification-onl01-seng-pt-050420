@@ -1,4 +1,4 @@
-lass Triangle
+Class Triangle
 
   attr_reader :side1, :side2, :side3
   
