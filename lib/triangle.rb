@@ -36,5 +36,8 @@ class Triangle
 end
 
 class TriangleError < StandardError
-
+if @sides[0] + @sides[1] <= @sides[2]
+      raise TriangleError, "Not valid triangle lengths"    
+    end
+  end
 end
